@@ -1,0 +1,152 @@
+body{
+    background-color: #e0e5ee;
+}
+
+.header{
+    position: absolute;
+    
+    width: 100%;
+    height:80px;
+    background-color:#385899;
+    top: 0px;
+    left: 0px;
+
+}
+#logo{
+    height: 20px;
+	left:16%;
+    top:0px;
+    
+}
+#username{
+    height:25px;
+	width:200px;
+    left:52%;
+    top: 18px;
+    
+
+}
+#password{
+    height:25px;
+	width:200px;
+    left:66%;
+    top: 18px;
+    
+
+}
+#forgot{
+    color: aliceblue;
+    font-size:12px;
+
+}
+#login{
+    left:80%;
+    top:35px;
+    background-color:#4773cc;
+    color: rgb(235, 227, 227);
+    border:1px solid black;
+    height: 20px;
+    width: 60px;
+    
+    
+}
+.main{
+    position: absolute;
+    width: 100%;
+    top:80px;
+    height: 700px;
+    background-color: #e0e5ee;
+    
+}
+#image{
+    height:600px;
+    width:650px;
+    
+}
+
+.box{
+    position: absolute;
+    top:0px;
+    right: 90px;
+    background-color: #e0e5ee;
+    
+    width:500px;
+    height:600px;
+}
+#signup{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+#free{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#birthday{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#why{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:#385899;
+}
+.tooltip{
+    position: relative;
+    display:inline-block;
+    
+
+}
+.tooltip .tooltiptext{
+    visibility:hidden;
+    width:150px;
+    position:absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: whitesmoke;
+    color:black;
+    padding: 5px;
+    border:1px solid grey;
+
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+#notify{
+    color: grey;
+}
+a {
+    color: #385899;
+}
+#datap{
+    color: #385899;
+}
+#cookies{
+    color: #385899
+}
+.sbutton{
+    width:200px;
+    padding: 10px;
+    background: #5c9449;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.footer{
+    position: absolute;
+    width:100%;
+    top:605px;
+    left:0px;
+    height: 140px;
+    background-color: white;
+
+}
+.f_text{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
